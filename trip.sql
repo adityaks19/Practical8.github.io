@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `trip` (
-  `sno` int(100) NOT NULL,
+  `sno` int(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `age` int(3) NOT NULL,
   `gender` varchar(8) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `trip` (
 --
 
 INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES
-(1, 'Aditya Kumar', 19, 'Male', 'lc020371@ccet.ac.in', 1245786325, 'Good trip', '2022-06-01 12:06:52');
+(1, 'Shrey Mehra', 90, 'Male', 'shreymehra45@gmail.com', 1245786325, 'It must be a good trip ', '2022-05-30 12:50:52');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
